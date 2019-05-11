@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<title>Hostelería</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Overpass:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+<link rel="stylesheet" href="styles/layout.css">
+<link rel="stylesheet" href="styles/slider.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(document).ready(function() {
+$( "#mi-slider" ).slideDown(1000);
+$( "#panel1" ).slideDown(2000);
+$( "#panel2" ).slideDown(2000);
+$( "#panel3" ).slideDown(2000);
+$( "#panel4" ).slideDown(3000);
+$( "#paneld" ).slideDown(4000);
+});
+</script>
+</head>
+<body>
+<!-- Página -->
+    <div class="page">
+    <nav class="nav">
+    <!--Botón Cerrar-->
+    <div class="nav__close"></div>
+    <!--Lista Navegación-->
+    <ul class="nav__list">
+      <!--Link Navegación-->
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="index.html" title="Inicio"><i class="nav__link-icon material-icons">home</i>Inicio</a>
+        </li>
+      <!--Lista Navegación-->
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="Solu.html" title="Quienes Somos"><i class="fas fa-info"></i>Quienes Somos</a>
+        </li>
+      <!--Lista Navegación-->
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="Pers.html" title="Personal"><i class="fas fa-male"></i>Personal</a>
+        </li>
+      <!--Lista Navegación-->
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="Plat.html" title="Platos"><i class="fas fa-mortar-pestle"></i>Consultría</a>
+        </li>
+      <!--Lista Navegación-->
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="Conta.html" title="Contactanos"><i class="fas fa-concierge-bell"></i>Contáctanos</a>
+        </li>
+      <!--Lista Navegación-->
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="Reser.html" title="Reserva"><i class="far fa-calendar-alt"></i>Reserva</a>
+        </li>
+        <li class="nav__item">
+        <!--Link Navegación--><a class="nav__link" href="Forms.html" title="Formularios"><i class="fas fa-table"></i>Formularios</a>
+        </li>
+        <li class="nav__item">
+        <audio autoplay controls="controls" style="width: 250px;" src="media/musica.mp3"></audio>
+        </li>
+                   
+    </ul>
+    </nav>
+        <div class="page__content">
+        <div class="nav-open-btn">
+        <div class="nav-open-btn__bar"></div>
+        <div class="nav-open-btn__bar"></div>
+        <div class="nav-open-btn__bar"></div>
+    </div>
+ 
+        
+    <div class="Slider" align="center">
+    <div class="ism-slider" data-transition_type="fade" data-play_type="once-rewind" id="mi-slider" style="display: none">
+        <ol>
+            <li>
+                <img src="slider/1555263230422_980299.png">
+            </li>
+            <li>
+                <img src="slider/1555260797336_723269.jpg">
+            </li>
+            <li>
+                <img src="slider/1555263475372_127024.png">
+            </li>
+        </ol>
+        <script src="scripts/slider.js"></script>
+    </div>
+    </div>
+ <!-- Slider -->
+    <div class="wrapper row2">
+        <div id="container" class="clear"> <!-- Div Página -->
+        <div id="homepage">
+    <section id="services" class="clear">
+        <article class="one_third" id="panel1" style="display: none"> <!-- Primera Foto -->
+            <figure>
+                <div class="portfolio-item portfolio-effect__item portfolio-item--eff1" id="flip" >
+                    <img class="portfolio-item__image" src="images/soluz.png" alt="Portfolio Item" >
+                <div class="portfolio-item__info" >
+                    <h3 class="portfolio-item__header" >Quienes Somos</h3>
+                <div class="portfolio-item__links">
+                <div class="portfolio-item__link-block">
+                    <a class="portfolio-item__link" href="Solu.html" title="Nosotros">
+                        <i class="material-icons">link</i>
+                    </a>
+                </div>
+                <div class="portfolio-item__link-block">
+                    <a class="portfolio-item__link" href="https://twitter.com/SolucionesUp" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>    
+                </div>  
+            </div>
+        </div>
+    </div> 
+            <figcaption >
+            <br>    
+                    <div >
+                    <h2 style="font-size:20px"><a href="Solu.html">Sobre Nosotros</a></h2>
+                    <p>Puedes contactarnos para recibir ayuda de los mejores expertos en repostería.</p>
+                    </div>
+            </figcaption>
+                </figure>
+                </article>
+                <article class="one_third"  id="panel2" style="display: none"> <!-- Segunda Foto -->
+                <figure><div class="portfolio-item portfolio-effect__item portfolio-item--eff1"> 
+                    <img class="portfolio-item__image" src="images/platos.jpeg" alt="Portfolio Item">
+                <div class="portfolio-item__info">
+                    <h3 class="portfolio-item__header">Consultoría</h3>
+                <div class="portfolio-item__links">
+                <div class="portfolio-item__link-block">
+                    <a class="portfolio-item__link" href="Plat.html" title="Plato">   
+                        <i class="material-icons">link</i>
+                    </a>
+                </div>
+                <div class="portfolio-item__link-block">
+                    <a class="portfolio-item__link" href="https://www.facebook.com/SOLUCIONES-GASTRONOMICAS-114266255269024/" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>  
+            </div>
+          </div>           
+        </div> 
+            <figcaption>
+            <br>
+               <div>
+                <h2 style="font-size:20px"><a href="Plat.html">Consultoría</a></h2>
+                <p>Ayudamos con todo tipo de problemas en la hostelería. Puedes rellenar el formulario de contacto</p>
+                </div>
+            </figcaption>
+            </figure>
+            </article>
+            <article class="one_third lastbox" id="panel3" style="display: none"> <!-- Tercera foto -->
+            <figure><div class="portfolio-item portfolio-effect__item portfolio-item--eff1"> 
+                <img class="portfolio-item__image" src="images/personal.jpeg" alt="Portfolio Item">
+            <div class="portfolio-item__info">
+                <h3 class="portfolio-item__header">Personal</h3>
+            <div class="portfolio-item__links"> 
+            <div class="portfolio-item__link-block">
+                <a class="portfolio-item__link" href="Pers.html" title="Personal">
+                    <i class="material-icons">link</i>
+                </a>                
+            </div>              
+            <div class="portfolio-item__link-block">                
+                <a class="portfolio-item__link" href="http://ies.mariadezayas.majadahonda.educa.madrid.org/Joomla/" title="Centro">
+                  <i class="fa fa-graduation-cap"></i>                
+                </a>                
+              </div>              
+            </div>
+          </div>            
+        </div> 
+            <figcaption>
+             <br>
+               <div>
+                <h2 style="font-size:20px"><a href="Pers.html">Nuestro Personal</a></h2>
+              <p>Contamos con un personal con grandes habilidades y experiencias.</p>
+                </div>
+
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <section id="intro" class="last clear" > <!-- Última Foto -->
+        <article >
+          <figure id="panel4" style="display: none"><a href="http://ies.mariadezayas.majadahonda.educa.madrid.org/Joomla/index.php?option=com_content&view=article&id=127&Itemid=2"><img src="images/centro.jpg" width="450" height="250" alt=""></a>
+            <figcaption>
+              <h2 style="font-size:30px"><a href="http://ies.mariadezayas.majadahonda.educa.madrid.org/Joomla/index.php?option=com_content&view=article&id=127&Itemid=2">IES María de Zayas y Sotomayor</a></h2>
+              <p>El IES María de Zayas y Sotomayor es un Centro de Formación Profesional Específica perteneciente a la Red Pública de la Consejería de Educación de la Comunidad de Madrid destinada a la formación de Técnicos y Técnicos Superiores en INFORMÁTICA, ADMINISTRACIÓN, EDUCACIÓN INFANTIL Y HOSTELERÍA Y TURISMO.</p>
+              <p>La duración de los estudios  es dos cursos académicos y se trata de una formación tanto teórica como práctica. Esta última se realiza en aulas taller equipadas para simular el entorno laboral.</p> 
+            <p>
+                Nuestras enseñanzas incluyen la realización de prácticas en empresas del sector durante el último trimestre del 2º curso. El  Centro cuenta con convenios de colaboración con cerca de 400 empresas  ubicadas en la Comunidad de Madrid y también en países Europeos..</p>
+              <footer></footer>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+    <aside class="bloque-derecha" id="paneld" style="display: none">
+			<section>
+                <img src="images/zayas.png">
+			</section>
+            <section>
+            <script type="text/javascript"></script>
+            <div id="MiReloj" class="Reloj" onload="showTime()"></div>
+            <script src="scripts/reloj.js"></script>
+            </section>
+			<section>
+			<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;color=%231B887A&amp;ctz=Europe%2FMadrid" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+            </section>
+            <section>
+                <video width="290px" height="160px" controls src="media/alitas.mp4">
+                </video>
+            </section>            
+    </aside>
+    </div>
+  </div>
+</div>
+<!-- Copyright de Artur Kayda-->
+<div class="wrapper row4">
+  <footer id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2019 - Todos los Derechos Reservados - ArturKayda
+  </footer>
+</div>
+</div>
+</div>
+<script  src="scripts/index.js"></script>
+</body>
+</html>

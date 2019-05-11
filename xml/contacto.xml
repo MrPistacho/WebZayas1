@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "contacto.dtd">
+<?xml-stylesheet href="contacto.xsl" type="text/xsl" ?>
+<document>
+<Contacto>
+<Genero></Genero>
+<Nombre></Nombre>
+<Apellido></Apellido>
+<Direccion></Direccion>
+<Direccion2></Direccion2>
+<Ciudad></Ciudad>
+<Provincia></Provincia>
+<Postal></Postal>
+<Pais></Pais>
+<Telefono></Telefono>
+<email></email>
+<Comentario></Comentario>
+</Contacto>
+</document>

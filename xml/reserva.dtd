@@ -1,0 +1,42 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT document (Reserva)+>
+<!ATTLIST document
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Reserva (Nombre,Apellido,DNI,Comida,Telefono,fecha,Hora,
+                   Minutos)>
+<!ATTLIST Reserva
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ATTLIST Nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Apellido (#PCDATA)>
+<!ATTLIST Apellido
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DNI (#PCDATA)>
+<!ATTLIST DNI
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Comida (#PCDATA)>
+<!ATTLIST Comida
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Telefono (#PCDATA)>
+<!ATTLIST Telefono
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Hora (#PCDATA)>
+<!ATTLIST Hora
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Minutos (#PCDATA)>
+<!ATTLIST Minutos
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "reserva.dtd">
+<?xml-stylesheet href="reserva.xsl" type="text/xsl" ?>
+<document>
+<Reserva>
+<Nombre>Artur</Nombre>
+<Apellido>Kayda</Apellido>
+<DNI>000000000</DNI>
+<Comida>Cena</Comida>
+<Telefono>000000000</Telefono>
+<fecha>12/05/2019</fecha>
+<Hora>12</Hora>
+<Minutos>00</Minutos>
+</Reserva>
+<Reserva>
+<Nombre>random</Nombre>
+<Apellido>random</Apellido>
+<DNI>000000000</DNI>
+<Comida>Cena</Comida>
+<Telefono>000000000</Telefono>
+<fecha>12/05/2019</fecha>
+<Hora>12</Hora>
+<Minutos>00</Minutos>
+</Reserva>
+<Reserva>
+<Nombre>random</Nombre>
+<Apellido>random</Apellido>
+<DNI>000000000</DNI>
+<Comida>Cena</Comida>
+<Telefono>000000000</Telefono>
+<fecha>12/05/2019</fecha>
+<Hora>12</Hora>
+<Minutos>00</Minutos>
+</Reserva>
+<Reserva>
+<Nombre>random</Nombre>
+<Apellido>random</Apellido>
+<DNI>000000000</DNI>
+<Comida>Cena</Comida>
+<Telefono>000000000</Telefono>
+<fecha>12/05/2019</fecha>
+<Hora>12</Hora>
+<Minutos>00</Minutos>
+</Reserva>
+</document>

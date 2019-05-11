@@ -1,0 +1,58 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT document (Contacto)>
+<!ATTLIST document
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Contacto (Genero,Nombre,Apellido,Direccion,Direccion2,Ciudad,
+                    Provincia,Postal,Pais,Telefono,email,Comentario)>
+<!ATTLIST Contacto
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Genero (#PCDATA)>
+<!ATTLIST Genero
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ATTLIST Nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Apellido (#PCDATA)>
+<!ATTLIST Apellido
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Direccion (#PCDATA)>
+<!ATTLIST Direccion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Direccion2 (#PCDATA)>
+<!ATTLIST Direccion2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Ciudad (#PCDATA)>
+<!ATTLIST Ciudad
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Provincia (#PCDATA)>
+<!ATTLIST Provincia
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Postal (#PCDATA)>
+<!ATTLIST Postal
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Pais (#PCDATA)>
+<!ATTLIST Pais
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Telefono (#PCDATA)>
+<!ATTLIST Telefono
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Comentario (#PCDATA)>
+<!ATTLIST Comentario
+  xmlns CDATA #FIXED ''>
