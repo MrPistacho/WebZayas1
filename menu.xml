@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<menu>
+<mes>mayo</mes>
+<semana numero="1">
+<dia diaSem="Viernes" diaMes="1">
+<primero>Puré de patatas calabacín y puerro con pollo</primero>
+<postre>Yogur</postre>
+</dia>
+</semana>
+<semana numero="2">
+<dia diaSem="Lunes" diaMes="4">
+<primero>Puré de patata, zanahoria, puerro y arroz con pollo</primero>
+<postre>Fruta</postre>
+</dia>
+<dia diaSem="Martes" diaMes="5">
+<primero>Puré de patata, calabaza y puerro con merluza</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Miercoles" diaMes="6">
+<primero>Puré de zanahorias y judías verdes con pavo</primero>
+<postre>Natillas</postre>
+</dia>
+<dia diaSem="Jueves" diaMes="7">
+<primero>Puré de patatas y acelgas con merluza</primero>
+<postre>Fruta</postre>
+</dia>
+<dia diaSem="Viernes" diaMes="8">
+<primero>Puré de patata, zanahoria y calabacín con ternera</primero>
+<postre>Yogur</postre>
+</dia>
+</semana>
+<semana numero="3">
+<dia diaSem="Lunes" diaMes="11">
+<primero>Puré de patata, zanahoria y calabacín con ternera</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Martes" diaMes="12">
+<primero>Puré de patatas, zanahorias y judias verdes con pollo</primero>
+<postre>Fruta</postre>
+</dia>
+<dia diaSem="Miercoles" diaMes="13">
+<primero>Puré de patata, zanahoria, puerro y arroz con merluza</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Jueves" diaMes="14">
+<primero>Puré de patata, zanahoria y acelgas con pavo</primero>
+<postre>Natillas</postre>
+</dia>
+<dia diaSem="Viernes" diaMes="15">
+<primero>Puré de patata, zanahoria y calabacín con merluza</primero>
+<postre>Fruta</postre>
+</dia>
+</semana>
+<semana numero="4">
+<dia diaSem="Lunes" diaMes="18">
+<primero>Puré de patata, calabaza y puerro con pavo</primero>
+<postre>Fruta</postre>
+</dia>
+<dia diaSem="Martes" diaMes="19">
+<primero>Puré de patata, zanahoria y acelgas con ternera</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Miercoles" diaMes="20">
+<primero>Puré de patata, zanahoria y judías verdes con merluza</primero>
+<postre>Natillas</postre>
+</dia>
+<dia diaSem="Jueves" diaMes="21">
+<primero>Puré de patata, zanahoria y calabacín con pollo</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Viernes" diaMes="22">
+<primero>Puré de patata, zanahoria, puerro y arroz con merluza</primero>
+<postre>Fruta</postre>
+</dia>
+</semana>
+<semana numero="5">
+<dia diaSem="Lunes" diaMes="25">
+<primero>Puré de patata, calabaza y puerro con ternera</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Martes" diaMes="26">
+<primero>Puré de patata, zanahoria, puerro y arroz con merluza</primero>
+<postre>Natillas</postre>
+</dia>
+<dia diaSem="Miercoles" diaMes="27">
+<primero>Puré de patata, zanahoria y calabacín con pollo</primero>
+<postre>Fruta</postre>
+</dia>
+<dia diaSem="Jueves" diaMes="28">
+<primero>Puré de patata, zanahoria y puerro con pavo</primero>
+<postre>Yogur</postre>
+</dia>
+<dia diaSem="Viernes" diaMes="29">
+<primero>Puré de patata, zanahorias y judías verdes con merluza</primero>
+<postre>Yogur</postre>
+</dia>
+</semana>
+</menu>
