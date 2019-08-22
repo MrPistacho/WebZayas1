@@ -1,3 +1,1 @@
-<?xml version="1.0"?>
-<?xml-stylesheet href="reserva.xsl" type="text/xsl" ?>
-<document><Reserva><Nombre>sdfsd</Nombre><Apellido>sdfsdf</Apellido><DNI/><Comida> </Comida><Telefono>722200902</Telefono><fecha/><Hora>12</Hora><Minutos>00</Minutos></Reserva><Reserva><Nombre>sdad</Nombre><Apellido>asdsd</Apellido><DNI>asd</DNI><Comida> </Comida><Telefono>666666666</Telefono><fecha/><Hora>12</Hora><Minutos>00</Minutos></Reserva></document>
+
